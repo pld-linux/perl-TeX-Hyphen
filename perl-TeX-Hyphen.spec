@@ -4,8 +4,8 @@
 Summary:	TeX::Hyphen perl module
 Summary(pl):	Modu³ perla TeX::Hyphen
 Name:		perl-TeX-Hyphen
-Version:	0.111
-Release:	3
+Version:	0.121
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -41,4 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc *.gz
 %{perl_sitelib}/TeX/Hyphen.pm
+%{perl_sitelib}/TeX/Hyphen
 %{_mandir}/man3/*
