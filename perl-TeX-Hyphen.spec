@@ -25,7 +25,8 @@ Summary(zh_CN):	TeX::Hyphen Perl Ä£¿é
 Name:		perl-TeX-Hyphen
 Version:	0.140
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0ee75a22525461e72ceab8e82377d617
