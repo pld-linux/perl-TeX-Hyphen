@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	TeX
 %define	pnam	Hyphen
-%include	/usr/lib/rpm/macros.perl
 Summary:	TeX-Hyphen perl module
 Summary(pl):	Modu³ perla TeX-Hyphen
 Name:		perl-TeX-Hyphen
 Version:	0.111
-Release:	2
-
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ TeX-Hyphen - hyphenates words using TeX's patterns.
 Modu³ perla TeX-Hyphen.
 
 %prep
-%setup -q -n TeX-Hyphen-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
