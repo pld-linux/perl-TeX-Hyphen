@@ -1,10 +1,29 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	TeX
 %define	pnam	Hyphen
-Summary:	TeX::Hyphen perl module
-Summary(pl):	Modu³ perla TeX::Hyphen
+Summary:	TeX::Hyphen Perl module
+Summary(cs):	Modul TeX::Hyphen pro Perl
+Summary(da):	Perlmodul TeX::Hyphen
+Summary(de):	TeX::Hyphen Perl Modul
+Summary(es):	Módulo de Perl TeX::Hyphen
+Summary(fr):	Module Perl TeX::Hyphen
+Summary(it):	Modulo di Perl TeX::Hyphen
+Summary(ja):	TeX::Hyphen Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	TeX::Hyphen ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul TeX::Hyphen
+Summary(pl):	Modu³ Perla TeX::Hyphen
+Summary(pt):	Módulo de Perl TeX::Hyphen
+Summary(pt_BR):	Módulo Perl TeX::Hyphen
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl TeX::Hyphen
+Summary(sv):	TeX::Hyphen Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl TeX::Hyphen
+Summary(zh_CN):	TeX::Hyphen Perl Ä£¿é
 Name:		perl-TeX-Hyphen
-Version:	0.121
+Version:	0.130
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
@@ -27,6 +46,7 @@ TeX-a.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
