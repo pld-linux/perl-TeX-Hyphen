@@ -39,7 +39,7 @@ TeX::Hyphen - hyphenates words using TeX's patterns.
 
 %description -l pl
 Modu³ perla TeX::Hyphen - przenosz±cy s³owa przy u¿yciu wzorców z
-TeX-a.
+TeXa.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
