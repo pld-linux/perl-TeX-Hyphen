@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl TeX::Hyphen
 Summary(zh_CN):	TeX::Hyphen Perl дё©И
 Name:		perl-TeX-Hyphen
 Version:	0.140
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
