@@ -2,9 +2,9 @@
 Summary:	TeX-Hyphen perl module
 Summary(pl):	Modu³ perla TeX-Hyphen
 Name:		perl-TeX-Hyphen
-Version:	0.10
-Release:	3
-Copyright:	GPL
+Version:	0.101
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/TeX/TeX-Hyphen-%{version}.tar.gz
