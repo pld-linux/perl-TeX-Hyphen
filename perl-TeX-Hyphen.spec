@@ -23,7 +23,7 @@ Summary(sv):	TeX::Hyphen Perlmodul
 Summary(uk):	Модуль для Perl TeX::Hyphen
 Summary(zh_CN):	TeX::Hyphen Perl дё©И
 Name:		perl-TeX-Hyphen
-Version:	0.130
+Version:	0.140
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
