@@ -14,7 +14,7 @@ Summary(fr):	Module Perl TeX::Hyphen
 Summary(it):	Modulo di Perl TeX::Hyphen
 Summary(ja):	TeX::Hyphen Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	TeX::Hyphen ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul TeX::Hyphen
+Summary(nb):	Perlmodul TeX::Hyphen
 Summary(pl):	Modu³ Perla TeX::Hyphen
 Summary(pt):	Módulo de Perl TeX::Hyphen
 Summary(pt_BR):	Módulo Perl TeX::Hyphen
