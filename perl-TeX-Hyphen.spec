@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	TeX
-%define	pnam	Hyphen
+%define		pdir	TeX
+%define		pnam	Hyphen
 Summary:	TeX::Hyphen Perl module
 Summary(cs):	Modul TeX::Hyphen pro Perl
 Summary(da):	Perlmodul TeX::Hyphen
