@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	TeX
 %define	pnam	Hyphen
-Summary:	TeX-Hyphen perl module
-Summary(pl):	Modu³ perla TeX-Hyphen
+Summary:	TeX::Hyphen perl module
+Summary(pl):	Modu³ perla TeX::Hyphen
 Name:		perl-TeX-Hyphen
 Version:	0.111
 Release:	3
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-TeX-Hyphen - hyphenates words using TeX's patterns.
+TeX::Hyphen - hyphenates words using TeX's patterns.
 
 %description -l pl
-Modu³ perla TeX-Hyphen.
+Modu³ perla TeX::Hyphen.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
