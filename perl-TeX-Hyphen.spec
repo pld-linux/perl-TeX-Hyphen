@@ -46,7 +46,7 @@ TeX-a.
 %build
 perl Makefile.PL
 %{__make}
-%{!?_with_tests:%{__make} test}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
