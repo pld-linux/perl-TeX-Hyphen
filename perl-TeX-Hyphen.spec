@@ -6,22 +6,22 @@
 %define		pdir	TeX
 %define		pnam	Hyphen
 Summary:	TeX::Hyphen Perl module
-Summary(cs):	Modul TeX::Hyphen pro Perl
-Summary(da):	Perlmodul TeX::Hyphen
-Summary(de):	TeX::Hyphen Perl Modul
-Summary(es):	MÛdulo de Perl TeX::Hyphen
-Summary(fr):	Module Perl TeX::Hyphen
-Summary(it):	Modulo di Perl TeX::Hyphen
-Summary(ja):	TeX::Hyphen Perl •‚•∏•Â°º•Î
-Summary(ko):	TeX::Hyphen ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul TeX::Hyphen
-Summary(pl):	Modu≥ Perla TeX::Hyphen
-Summary(pt):	MÛdulo de Perl TeX::Hyphen
-Summary(pt_BR):	MÛdulo Perl TeX::Hyphen
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl TeX::Hyphen
-Summary(sv):	TeX::Hyphen Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl TeX::Hyphen
-Summary(zh_CN):	TeX::Hyphen Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul TeX::Hyphen pro Perl
+Summary(da.UTF-8):   Perlmodul TeX::Hyphen
+Summary(de.UTF-8):   TeX::Hyphen Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl TeX::Hyphen
+Summary(fr.UTF-8):   Module Perl TeX::Hyphen
+Summary(it.UTF-8):   Modulo di Perl TeX::Hyphen
+Summary(ja.UTF-8):   TeX::Hyphen Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   TeX::Hyphen ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul TeX::Hyphen
+Summary(pl.UTF-8):   Modu≈Ç Perla TeX::Hyphen
+Summary(pt.UTF-8):   M√≥dulo de Perl TeX::Hyphen
+Summary(pt_BR.UTF-8):   M√≥dulo Perl TeX::Hyphen
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl TeX::Hyphen
+Summary(sv.UTF-8):   TeX::Hyphen Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl TeX::Hyphen
+Summary(zh_CN.UTF-8):   TeX::Hyphen Perl Ê®°Âùó
 Name:		perl-TeX-Hyphen
 Version:	0.140
 Release:	3
@@ -38,8 +38,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 TeX::Hyphen - hyphenates words using TeX's patterns.
 
-%description -l pl
-Modu≥ perla TeX::Hyphen - przenosz±cy s≥owa przy uøyciu wzorcÛw z
+%description -l pl.UTF-8
+Modu≈Ç perla TeX::Hyphen - przenoszƒÖcy s≈Çowa przy u≈ºyciu wzorc√≥w z
 TeXa.
 
 %prep
