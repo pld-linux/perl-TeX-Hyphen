@@ -6,22 +6,22 @@
 %define		pdir	TeX
 %define		pnam	Hyphen
 Summary:	TeX::Hyphen Perl module
-Summary(cs.UTF-8):   Modul TeX::Hyphen pro Perl
-Summary(da.UTF-8):   Perlmodul TeX::Hyphen
-Summary(de.UTF-8):   TeX::Hyphen Perl Modul
-Summary(es.UTF-8):   Módulo de Perl TeX::Hyphen
-Summary(fr.UTF-8):   Module Perl TeX::Hyphen
-Summary(it.UTF-8):   Modulo di Perl TeX::Hyphen
-Summary(ja.UTF-8):   TeX::Hyphen Perl モジュール
-Summary(ko.UTF-8):   TeX::Hyphen 펄 모줄
-Summary(nb.UTF-8):   Perlmodul TeX::Hyphen
-Summary(pl.UTF-8):   Moduł Perla TeX::Hyphen
-Summary(pt.UTF-8):   Módulo de Perl TeX::Hyphen
-Summary(pt_BR.UTF-8):   Módulo Perl TeX::Hyphen
-Summary(ru.UTF-8):   Модуль для Perl TeX::Hyphen
-Summary(sv.UTF-8):   TeX::Hyphen Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl TeX::Hyphen
-Summary(zh_CN.UTF-8):   TeX::Hyphen Perl 模块
+Summary(cs.UTF-8):	Modul TeX::Hyphen pro Perl
+Summary(da.UTF-8):	Perlmodul TeX::Hyphen
+Summary(de.UTF-8):	TeX::Hyphen Perl Modul
+Summary(es.UTF-8):	Módulo de Perl TeX::Hyphen
+Summary(fr.UTF-8):	Module Perl TeX::Hyphen
+Summary(it.UTF-8):	Modulo di Perl TeX::Hyphen
+Summary(ja.UTF-8):	TeX::Hyphen Perl モジュール
+Summary(ko.UTF-8):	TeX::Hyphen 펄 모줄
+Summary(nb.UTF-8):	Perlmodul TeX::Hyphen
+Summary(pl.UTF-8):	Moduł Perla TeX::Hyphen
+Summary(pt.UTF-8):	Módulo de Perl TeX::Hyphen
+Summary(pt_BR.UTF-8):	Módulo Perl TeX::Hyphen
+Summary(ru.UTF-8):	Модуль для Perl TeX::Hyphen
+Summary(sv.UTF-8):	TeX::Hyphen Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl TeX::Hyphen
+Summary(zh_CN.UTF-8):	TeX::Hyphen Perl 模块
 Name:		perl-TeX-Hyphen
 Version:	0.140
 Release:	3
