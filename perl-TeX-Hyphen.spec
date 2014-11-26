@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	TeX
 %define		pnam	Hyphen
+%include	/usr/lib/rpm/macros.perl
 Summary:	TeX::Hyphen Perl module
 Summary(cs.UTF-8):	Modul TeX::Hyphen pro Perl
 Summary(da.UTF-8):	Perlmodul TeX::Hyphen
@@ -30,6 +30,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0ee75a22525461e72ceab8e82377d617
+URL:		http://search.cpan.org/dist/TeX-Hyphen/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
