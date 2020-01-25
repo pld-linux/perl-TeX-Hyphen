@@ -4,7 +4,6 @@
 
 %define		pdir	TeX
 %define		pnam	Hyphen
-%include	/usr/lib/rpm/macros.perl
 Summary:	TeX::Hyphen Perl module
 Summary(cs.UTF-8):	Modul TeX::Hyphen pro Perl
 Summary(da.UTF-8):	Perlmodul TeX::Hyphen
